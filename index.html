@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Te Gusto - Restaurant & Brasserie à Blida</title>
+    <meta name="description" content="Découvrez Te Gusto, restaurant et brasserie moderne à Blida. Dégustez nos plats généreux, pizzas, pâtes et burgers dans une ambiance chaleureuse." />
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#FDF6E9] text-[#3D1609] font-inter antialiased overflow-x-hidden selection:bg-[#F5B731] selection:text-[#3D1609]">
+    <div id="root">
+      <!-- Loading Screen (disappears instantly when React loads) -->
+      <style>
+        .loader-container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #FDF6E9; }
+        .spinner { width: 50px; height: 50px; border: 5px solid rgba(245, 183, 49, 0.3); border-radius: 50%; border-top-color: #F5B731; animation: spin 1s ease-in-out infinite; margin-bottom: 20px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .loader-text { font-family: 'Outfit', sans-serif; font-weight: 900; font-size: 24px; color: #3D1609; letter-spacing: 2px; text-transform: uppercase; animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+      </style>
+      <div class="loader-container">
+        <div class="spinner"></div>
+        <div class="loader-text">Te Gusto</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-te-cream text-te-choc font-inter;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-outfit font-black tracking-tight;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-te-mustard text-te-choc font-outfit font-black uppercase tracking-wider px-8 py-4 rounded-pill hover:bg-te-mustard-hover hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-te-mustard/50 shadow-[0_8px_20px_-6px_rgba(245,183,49,0.5)];
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center bg-te-choc text-te-cream font-outfit font-black uppercase tracking-wider px-8 py-4 rounded-pill hover:bg-te-choc-light hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-te-choc/50 shadow-[0_8px_20px_-6px_rgba(61,22,9,0.4)];
+  }
+  .pill-badge {
+    @apply inline-block px-4 py-1.5 rounded-pill bg-te-sand text-te-choc font-outfit font-bold uppercase text-sm tracking-widest mb-4;
+  }
+}
