@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        'te-cream': '#FDF6E9',
-        'te-choc': '#3D1609',
-        'te-choc-light': '#5A2613',
-        'te-mustard': '#F5B731',
-        'te-mustard-hover': '#F7C65A',
-        'te-terra': '#BA3E1A',
-        'te-sand': '#F2E5D5',
+        'te-cream': '#F8F9FA',
+        'te-choc': '#1A1A1A',
+        'te-choc-light': '#4A4A4A',
+        'te-mustard': '#D4AF37',
+        'te-mustard-hover': '#C19B28',
+        'te-terra': '#8B0000',
+        'te-sand': '#EAEAEA',
       },
       fontFamily: {
         'outfit': ['Outfit', 'sans-serif'],

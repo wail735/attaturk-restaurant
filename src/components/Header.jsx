@@ -19,9 +19,9 @@ const Header = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-te-mustard rounded-full flex items-center justify-center">
-            <span className="font-outfit font-black text-te-choc text-xl">TG</span>
+            <span className="font-outfit font-black text-te-choc text-xl">AT</span>
           </div>
-          <span className="font-outfit font-black text-2xl text-te-choc tracking-tight">TE GUSTO</span>
+          <span className="font-outfit font-black text-2xl text-te-choc tracking-tight">ATATURK</span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8 font-outfit font-bold text-te-choc">

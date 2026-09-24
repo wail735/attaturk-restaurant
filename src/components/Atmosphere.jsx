@@ -4,11 +4,11 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import { motion } from 'framer-motion';
-import img1 from '../assets/image1.jfif';
-import img2 from '../assets/image2.jfif';
-import img3 from '../assets/image3.jfif';
-import img4 from '../assets/image4.jfif';
-import img5 from '../assets/image5.jfif';
+import img1 from '../ataturk/1.jpg';
+import img2 from '../ataturk/2.jpg';
+import img3 from '../ataturk/631644074_18098805482497697_4068700066609320752_n.jpg';
+import img4 from '../ataturk/631724104_18098805473497697_4960421071865122402_n.jpg';
+import img5 from '../ataturk/ATATURK-13-scaled.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 

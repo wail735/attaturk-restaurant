@@ -4,8 +4,8 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
 import { motion } from 'framer-motion';
-import imgLeft from '../assets/menu15.jpg'; // Burger
-import imgRight from '../assets/menu12.jpg'; // Pizza
+import imgLeft from '../ataturk/menu-1-grillards-f.jpg'; // Burger
+import imgRight from '../ataturk/menu-12-entrés.jpg'; // Pizza
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -141,7 +141,7 @@ const Footer = () => {
           <p className="cta-text text-te-choc text-lg md:text-xl mb-10 font-medium">
             {t('cta.subtitle')}
           </p>
-          <a href="tel:+213542225895" className="cta-text bg-white text-te-choc font-outfit font-black uppercase tracking-wider px-10 py-4 rounded-pill hover:scale-105 transition-transform shadow-[0_10px_25px_-5px_rgba(61,22,9,0.3)]">
+          <a href="tel:+213555854463" className="cta-text bg-white text-te-choc font-outfit font-black uppercase tracking-wider px-10 py-4 rounded-pill hover:scale-105 transition-transform shadow-[0_10px_25px_-5px_rgba(61,22,9,0.3)]">
             {t('cta.btn')}
           </a>
         </div>
@@ -160,7 +160,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8 mb-12">
             
             <div className="footer-col lg:col-span-2">
-              <h3 className="font-outfit font-black text-4xl mb-8 text-te-mustard">Te Gusto</h3>
+              <h3 className="font-outfit font-black text-4xl mb-8 text-te-mustard">Ataturk</h3>
               <div className="flex items-start gap-4">
                 <div className="text-te-mustard mt-1 bg-te-mustard/10 p-2 rounded-xl">
                   <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
@@ -187,7 +187,7 @@ const Footer = () => {
             <div className="footer-col">
               <h4 className="font-outfit font-bold text-lg mb-6 text-white">{t('footer.contact.title')}</h4>
               <ul className="space-y-4 font-medium text-te-sand/80">
-                <li dir="ltr" className={language === 'ar' ? 'text-right' : 'text-left'}><a href="tel:+213542225895" className="hover:text-white hover:underline transition-colors">0542 22 58 95</a></li>
+                <li dir="ltr" className={language === 'ar' ? 'text-right' : 'text-left'}><a href="tel:+213555854463" className="hover:text-white hover:underline transition-colors">0555 85 44 63</a></li>
                 <li>{t('footer.contact.days')}</li>
                 <li dir="ltr" className={language === 'ar' ? 'text-right' : 'text-left'}>{t('footer.contact.hours')}</li>
               </ul>
@@ -208,14 +208,14 @@ const Footer = () => {
           <div className="footer-map mt-16 w-full h-80 md:h-96 rounded-3xl overflow-hidden shadow-2xl border-4 border-te-mustard/20 relative group">
             <div className="absolute inset-0 bg-te-choc/20 pointer-events-none group-hover:bg-transparent transition-colors duration-500 z-10"></div>
             <iframe 
-              src="https://maps.google.com/maps?q=Te+Gusto,+Blida&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=Ataturk,+Blida&t=&z=15&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Carte de Te Gusto"
+              title="Carte d'Ataturk"
               className="relative z-0"
             ></iframe>
           </div>

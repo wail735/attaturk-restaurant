@@ -3,9 +3,9 @@ import { useLanguage } from '../context/LanguageContext';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { motion } from 'framer-motion';
-import heroImage from '../assets/hero_man.jpg'; 
-import floating1 from '../assets/menu15.jpg'; // Burger
-import floating2 from '../assets/menu12.jpg'; // Pizza
+import heroImage from '../ataturk/ATATURK-13-scaled.jpg'; 
+import floating1 from '../ataturk/menu-1-grillards-f.jpg'; // Burger
+import floating2 from '../ataturk/menu-12-entrés.jpg'; // Pizza
 
 const Hero = () => {
   const { t, language } = useLanguage();
@@ -88,7 +88,7 @@ const Hero = () => {
         </div>
 
         {/* Foreground Overlapping Image (Cutout style) */}
-        <div className="relative z-10 mt-[-2rem] md:mt-[-5rem] lg:mt-[-10rem] w-full max-w-3xl mx-auto px-4 md:px-0 pointer-events-none">
+        <div className="relative z-10 mt-0 md:mt-[-2rem] lg:mt-[-3rem] w-full max-w-3xl mx-auto px-4 md:px-0 pointer-events-none">
            <img 
              src={heroImage} 
              alt="Client heureux" 
@@ -115,7 +115,7 @@ const Hero = () => {
           <a href="#menu" className="btn-primary text-lg px-10">
             {t('hero.cta.menu')}
           </a>
-          <a href="tel:+213542225895" className="btn-secondary text-lg px-10">
+          <a href="tel:+213555854463" className="btn-secondary text-lg px-10">
             {t('hero.cta.order')}
           </a>
         </div>
