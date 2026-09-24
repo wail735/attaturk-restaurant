@@ -37,14 +37,18 @@ const Atmosphere = () => {
       clearProps: 'all'
     })
     // Animate Accordion Panels
-    .from('.atm-panel', {
-      y: 100,
-      opacity: 0,
-      duration: 1,
-      stagger: 0.1,
-      ease: 'back.out(1.2)',
-      clearProps: 'all'
-    }, "-=0.5");
+    .fromTo('.atm-panel', 
+      { y: 100, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        stagger: 0.1,
+        ease: 'back.out(1.2)',
+        clearProps: 'all'
+      }, 
+      "-=0.5"
+    );
 
   }, { scope: container });
 
